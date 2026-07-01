@@ -30,8 +30,6 @@ interface NavItemProps extends NavItemDef {
 const NAV_TOP: NavItemDef[] = [
   { label: "Analytics", url: "/analytics", icon: <BarChart3 size={18} /> },
   { label: "Feedback Analysis", url: "/ml-analysis", icon: <TrendingUp size={18} /> },
-  { label: "Articles", url: "/articles", icon: <Package size={18} /> },
-  { label: "Inventory", url: "/actions", icon: <CalendarClock size={18} /> },
   { label: "Mathematics", url: "/datareport", icon: <CalendarClock size={18} /> },
   { label: "Rating", url: "/rating", icon: <CalendarClock size={18} /> },
 ]
